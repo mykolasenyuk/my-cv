@@ -1,0 +1,18 @@
+a {
+  font-style: normal;
+  text-decoration: none;
+}
+.my_cv {
+  background-color: var(--custom-bccolor);
+  color: var(--text-color);
+  font-family: "Prompt", sans-serif;
+  letter-spacing: 0.03;
+}
+
+.title {
+  @include font(600, 30px, 1.14);
+  text-align: center;
+  display: block;
+  color: #fff;
+  padding-bottom: 15px;
+}

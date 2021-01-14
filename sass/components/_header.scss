@@ -1,0 +1,19 @@
+.container {
+  &.header {
+    background-color: var(--primary-background-color);
+    display: flex;
+    justify-content: center;
+    // border-bottom: 1px solid palegoldenrod;
+  }
+}
+
+.name {
+  font-family: "Prompt";
+  @include font(700, 42px, 1.12);
+  text-transform: uppercase;
+  text-shadow: 1px 2px tomato;
+  color: bisque;
+  @media screen and (min-width: 1200px) {
+    font-size: 56px;
+  }
+}

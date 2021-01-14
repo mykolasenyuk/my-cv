@@ -1,0 +1,119 @@
+.left-side {
+  background-color: var(--primary-background-color);
+  padding: 20px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 320px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 380px;
+  }
+}
+
+.photo {
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 30px;
+}
+img {
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Goldman";
+  @include font(600, 30px, 1.14);
+  text-align: center;
+  display: block;
+  color: wheat;
+  border-bottom: 1px solid salmon;
+  border-radius: 40%;
+  text-shadow: 1px 1px tomato;
+}
+.address {
+  &__nav {
+    display: inline-block;
+    padding: 0 45px;
+  }
+  &__link {
+    display: flex;
+    color: wheat;
+    fill: wheat;
+    margin-bottom: 10px;
+
+    @include font(500, 16px, 1.13);
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+      fill: tomato;
+      color: tomato;
+    }
+  }
+
+  &__icon {
+    margin-right: 10px;
+  }
+}
+
+.social-link {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin: 0;
+    list-style: none;
+  }
+  &__link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: tomato;
+    background-color: wheat;
+  }
+  &__link:hover,
+  &__link:focus {
+    background-color: teal;
+    // background-color: rgb(93, 93, 230);
+    fill: #fff;
+    transform: scale(1.2);
+  }
+}
+.skills {
+  padding: 20px 30px;
+  &__list {
+    margin: 0;
+  }
+  &__link {
+    @include font(500, 16px, 1.12);
+    color: wheat;
+    margin-bottom: 8px;
+  }
+}
+
+.education {
+  display: block;
+  padding: 20px 20px;
+  &__title {
+    @include font(600, 18px, 1.18);
+    margin: 0;
+    margin-bottom: 10px;
+    color: wheat;
+  }
+  &__spec {
+    @include font(500, 16px, 1.14);
+    color: inherit;
+  }
+  &__term {
+    margin: 0;
+    margin-top: 8px;
+    @include font(500, 16px, 1.12);
+  }
+}
