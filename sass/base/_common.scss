@@ -5,12 +5,13 @@ a {
 .my_cv {
   background-color: var(--custom-bccolor);
   color: var(--text-color);
-  font-family: "Prompt", sans-serif;
+  font-family: 'Prompt', sans-serif;
   letter-spacing: 0.03;
+  font-size: 18px;
 }
 
 .title {
-  @include font(600, 30px, 1.14);
+  @include font(400, 30px, 1.14);
   text-align: center;
   display: block;
   color: #fff;

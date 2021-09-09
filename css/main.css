@@ -3,6 +3,7 @@
   --primary-background-color: grey;
   --accent-color: #008080;
   --text-color: #212121;
+  --hover-color: #ff6347;
 }
 
 a {
@@ -13,12 +14,13 @@ a {
 .my_cv {
   background-color: var(--custom-bccolor);
   color: var(--text-color);
-  font-family: "Prompt", sans-serif;
+  font-family: 'Prompt', sans-serif;
   letter-spacing: 0.03;
+  font-size: 18px;
 }
 
 .title {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 30px;
   line-height: 1.14;
   text-align: center;
@@ -106,7 +108,7 @@ img {
   margin: 0;
   margin-bottom: 20px;
   font-family: 'Goldman';
-  font-weight: 600;
+  font-weight: 500;
   font-size: 30px;
   line-height: 1.14;
   text-align: center;
@@ -134,8 +136,8 @@ img {
 }
 
 .address__link:focus, .address__link:hover {
-  fill: tomato;
-  color: tomato;
+  fill: var(--hover-color);
+  color: var(--hover-color);
   transition: 500ms linear;
 }
 
@@ -146,7 +148,7 @@ img {
 .social-link__list {
   display: flex;
   justify-content: space-between;
-  padding: 20px 30px;
+  padding: 20px 50px;
   margin: 0;
   list-style: none;
 }
@@ -244,15 +246,15 @@ img {
 }
 
 .project--link {
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 1.73;
   color: var(--text-color);
   transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project--link:focus, .project--link:hover {
-  color: var(--accent-color);
+  color: var(--hover-color);
 }
 
 .experiance {
@@ -272,7 +274,7 @@ img {
 
 .prof__time {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.17;
 }
 /*# sourceMappingURL=main.css.map */

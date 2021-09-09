@@ -27,7 +27,7 @@ img {
   margin: 0;
   margin-bottom: 20px;
   font-family: 'Goldman';
-  @include font(600, 30px, 1.14);
+  @include font(500, 30px, 1.14);
   text-align: center;
   display: block;
   color: wheat;
@@ -52,8 +52,8 @@ img {
 
     &:focus,
     &:hover {
-      fill: tomato;
-      color: tomato;
+      fill: var(--hover-color);
+      color: var(--hover-color);
       transition: 500ms linear;
     }
   }
@@ -67,7 +67,7 @@ img {
   &__list {
     display: flex;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 20px 50px;
     margin: 0;
     list-style: none;
   }
