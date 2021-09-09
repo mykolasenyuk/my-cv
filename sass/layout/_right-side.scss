@@ -1,23 +1,32 @@
 .right-side {
-  background-color: wheat;
+  background-color: rgb(245, 222, 179);
   padding: 40px;
   width: 100%;
-  border: 1px solid salmon;
+  border: 1px solid #fa8072;
 }
 
 .right.title {
   color: rgb(51, 49, 49);
-  text-shadow: 1px 1px teal;
+  text-shadow: 1px 1px var(--accent-color);
   padding-bottom: 30px;
 }
-
+.project-list {
+  list-style: none;
+}
+.proj-item {
+  display: flex;
+  flex-direction: column;
+}
+.proj-decription {
+  color: var(--primary-background-color);
+}
 .project--link {
-  @include font(600, 16px, 1.13);
+  @include font(600, 18px, 1.73);
   color: var(--text-color);
   transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
   &:focus,
   &:hover {
-    color: tomato;
+    color: var(--accent-color);
   }
 }
 
@@ -26,11 +35,11 @@
 }
 
 .prof__title {
-  font-family: "Goldman";
+  font-family: 'Goldman';
   @include font(700, 22px, 1.16);
 }
 .prof__place {
-  color: teal;
+  color: var(--accent-color);
 }
 .prof__time {
   @include font(500, 16px, 1.17);
