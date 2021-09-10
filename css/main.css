@@ -55,11 +55,13 @@ a {
 .container.header {
   background-color: var(--primary-background-color);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .name {
-  font-family: "Prompt";
+  margin: 0 auto;
+  margin-top: 40px;
+  font-family: 'Prompt';
   font-weight: 700;
   font-size: 42px;
   line-height: 1.12;
@@ -72,6 +74,12 @@ a {
   .name {
     font-size: 56px;
   }
+}
+
+.prof {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .left-side {
@@ -242,7 +250,8 @@ img {
 }
 
 .proj-decription {
-  color: var(--primary-background-color);
+  font-size: 16px;
+  color: var(--text-color);
 }
 
 .project--link {

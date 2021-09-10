@@ -18,7 +18,8 @@
   flex-direction: column;
 }
 .proj-decription {
-  color: var(--primary-background-color);
+  font-size: 16px;
+  color: var(--text-color);
 }
 .project--link {
   @include font(500, 20px, 1.73);
