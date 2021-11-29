@@ -123,7 +123,7 @@ img {
   text-align: center;
   display: block;
   color: wheat;
-  border-bottom: 1px solid salmon;
+  border-bottom: 5px solid salmon;
   border-radius: 40%;
   text-shadow: 1px 1px tomato;
 }
