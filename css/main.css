@@ -14,7 +14,7 @@ a {
 .my_cv {
   background-color: var(--custom-bccolor);
   color: var(--text-color);
-  font-family: 'Prompt', sans-serif;
+  font-family: "Prompt", sans-serif;
   letter-spacing: 0.03;
   font-size: 18px;
 }
@@ -32,20 +32,17 @@ a {
 .container {
   margin: 0 auto;
 }
-
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
   }
 }
-
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
     display: flex;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
@@ -62,7 +59,7 @@ a {
 .name {
   margin: 0 auto;
   margin-top: 40px;
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-weight: 700;
   font-size: 42px;
   line-height: 1.12;
@@ -70,7 +67,6 @@ a {
   text-shadow: 1px 2px tomato;
   color: bisque;
 }
-
 @media screen and (min-width: 1200px) {
   .name {
     font-size: 56px;
@@ -87,13 +83,11 @@ a {
   background-color: var(--primary-background-color);
   padding: 20px;
 }
-
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .left-side {
     max-width: 320px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .left-side {
     max-width: 380px;
@@ -116,7 +110,7 @@ img {
 .title {
   margin: 0;
   margin-bottom: 20px;
-  font-family: 'Goldman';
+  font-family: "Goldman";
   font-weight: 500;
   font-size: 30px;
   line-height: 1.14;
@@ -132,7 +126,6 @@ img {
   display: inline-block;
   padding: 0 45px;
 }
-
 .address__link {
   display: flex;
   color: wheat;
@@ -143,13 +136,11 @@ img {
   line-height: 1.13;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .address__link:focus, .address__link:hover {
   fill: var(--hover-color);
   color: var(--hover-color);
   transition: 500ms linear;
 }
-
 .address__icon {
   margin-right: 10px;
 }
@@ -161,7 +152,6 @@ img {
   margin: 0;
   list-style: none;
 }
-
 .social-link__link {
   display: inline-flex;
   justify-content: center;
@@ -172,7 +162,6 @@ img {
   fill: tomato;
   background-color: wheat;
 }
-
 .social-link__link:hover, .social-link__link:focus {
   transform: scale(1.2);
   transition: 500ms linear;
@@ -184,11 +173,9 @@ img {
 .skills {
   padding: 20px 30px;
 }
-
 .skills__list {
   margin: 0;
 }
-
 .skills__link {
   font-weight: 500;
   font-size: 16px;
@@ -201,7 +188,6 @@ img {
   display: block;
   padding: 30px 40px;
 }
-
 .education__title {
   font-weight: 600;
   font-size: 18px;
@@ -211,14 +197,12 @@ img {
   margin-bottom: 10px;
   color: #fa8072;
 }
-
 .education__spec {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.14;
   color: #f5deb3;
 }
-
 .education__term {
   margin: 0;
   margin-top: 8px;
@@ -229,14 +213,14 @@ img {
 }
 
 .right-side {
-  background-color: wheat;
+  background-color: rgb(245, 222, 179);
   padding: 40px;
   width: 100%;
   border: 1px solid #fa8072;
 }
 
 .right.title {
-  color: #333131;
+  color: rgb(51, 49, 49);
   text-shadow: 1px 1px var(--accent-color);
   padding-bottom: 30px;
 }
@@ -257,14 +241,20 @@ img {
 
 .project--link {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.73;
   color: var(--text-color);
   transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .project--link:focus, .project--link:hover {
   color: var(--hover-color);
+}
+
+.project--title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.73;
+  text-shadow: 1px 1px var(--accent-color);
 }
 
 .experiance {
@@ -272,7 +262,7 @@ img {
 }
 
 .prof__title {
-  font-family: 'Goldman';
+  font-family: "Goldman";
   font-weight: 700;
   font-size: 22px;
   line-height: 1.16;
@@ -286,5 +276,4 @@ img {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.17;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

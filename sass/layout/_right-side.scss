@@ -22,13 +22,17 @@
   color: var(--text-color);
 }
 .project--link {
-  @include font(500, 20px, 1.73);
+  @include font(500, 18px, 1.73);
   color: var(--text-color);
   transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
   &:focus,
   &:hover {
     color: var(--hover-color);
   }
+}
+.project--title {
+  @include font(500, 20px, 1.73);
+  text-shadow: 1px 1px var(--accent-color);
 }
 
 .experiance {
