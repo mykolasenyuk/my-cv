@@ -1,2 +1,1 @@
-# goit-markup-hw-08
-homework#1
+I am a highly determined and motivated person who will get the job done provided a goal and time. Currently working as a full stack developer. I also specialise in cross-platform app development and full stack web development using Node.JS. I have knowledge of HTML, CSS, JavaScript,TypeScript, React, Node.js, Next.js and also I have experience like a Team Leader on team projects.
