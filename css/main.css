@@ -1,9 +1,9 @@
 :root {
-  --custom-bccolor: #fff;
-  --primary-background-color: grey;
-  --accent-color: #008080;
+  --custom-bccolor: #ffffff;
+  --primary-background-color: #8ea0ba;
+  --accent-color: #879bb7;
   --text-color: #212121;
-  --hover-color: #ff6347;
+  --hover-color: #52a728;
 }
 
 a {
@@ -58,14 +58,15 @@ a {
 
 .name {
   margin: 0 auto;
+  margin-bottom: 40px;
   margin-top: 40px;
   font-family: "Prompt";
   font-weight: 700;
   font-size: 42px;
   line-height: 1.12;
   text-transform: uppercase;
-  text-shadow: 1px 2px tomato;
-  color: bisque;
+  text-shadow: 1px 2px #125940;
+  color: rgb(255, 255, 255);
 }
 @media screen and (min-width: 1200px) {
   .name {
@@ -116,10 +117,10 @@ img {
   line-height: 1.14;
   text-align: center;
   display: block;
-  color: wheat;
-  border-bottom: 5px solid salmon;
+  color: #fdfcfc;
+  border-bottom: 5px solid #125940;
   border-radius: 40%;
-  text-shadow: 1px 1px tomato;
+  text-shadow: 1px 1px #125940;
 }
 
 .address__nav {
@@ -160,7 +161,7 @@ img {
   height: 44px;
   border-radius: 50%;
   fill: tomato;
-  background-color: wheat;
+  background-color: rgb(240, 207, 147);
 }
 .social-link__link:hover, .social-link__link:focus {
   transform: scale(1.2);
@@ -180,7 +181,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.12;
-  color: #f5deb3;
+  color: #f4d6a0;
   margin-bottom: 8px;
 }
 
@@ -195,7 +196,7 @@ img {
   margin: 0;
   margin-top: 10px;
   margin-bottom: 10px;
-  color: #fa8072;
+  color: #125940;
 }
 .education__spec {
   font-weight: 500;
@@ -213,14 +214,14 @@ img {
 }
 
 .right-side {
-  background-color: rgb(245, 222, 179);
+  background-color: rgb(230, 228, 226);
   padding: 40px;
   width: 100%;
-  border: 1px solid #fa8072;
+  border: 1px solid #879bb7;
 }
 
 .right.title {
-  color: rgb(51, 49, 49);
+  color: #879bb7;
   text-shadow: 1px 1px var(--accent-color);
   padding-bottom: 30px;
 }

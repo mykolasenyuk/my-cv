@@ -30,10 +30,10 @@ img {
   @include font(500, 30px, 1.14);
   text-align: center;
   display: block;
-  color: wheat;
-  border-bottom: 5px solid salmon;
+  color: #fdfcfc;
+  border-bottom: 5px solid #125940;
   border-radius: 40%;
-  text-shadow: 1px 1px tomato;
+  text-shadow: 1px 1px #125940;
 }
 .address {
   &__nav {
@@ -79,7 +79,7 @@ img {
     height: 44px;
     border-radius: 50%;
     fill: tomato;
-    background-color: wheat;
+    background-color: rgb(240, 207, 147);
   }
   &__link:hover,
   &__link:focus {
@@ -98,7 +98,7 @@ img {
   }
   &__link {
     @include font(500, 16px, 1.12);
-    color: #f5deb3;
+    color: #f4d6a0;
     margin-bottom: 8px;
   }
 }
@@ -111,7 +111,7 @@ img {
     margin: 0;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #fa8072;
+    color: #125940;
   }
   &__spec {
     @include font(500, 16px, 1.14);

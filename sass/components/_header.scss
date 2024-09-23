@@ -11,12 +11,13 @@
 
 .name {
   margin: 0 auto;
+  margin-bottom: 40px;
   margin-top: 40px;
   font-family: 'Prompt';
   @include font(700, 42px, 1.12);
   text-transform: uppercase;
-  text-shadow: 1px 2px tomato;
-  color: bisque;
+  text-shadow: 1px 2px #125940;
+  color: rgb(255, 255, 255);
   @media screen and (min-width: 1200px) {
     font-size: 56px;
   }
